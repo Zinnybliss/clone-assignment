@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling the header */
+.main_div {
+    height: 80vh;
+    background-image: url(first-bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg {
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(to bottom, black, transparent, black);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+nav {
+    padding: 30px 0px;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.signIn {
+    height: min-content;
+    font-size: 18px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 8px;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    color: white;
+}
+
+.contain {
+    text-align: center;
+    width: 50%;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% auto;
+    align-items: center;
+}
+
+.put-email1 {
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+.button1 {
+        border: none;
+        font-size: 26px;
+        background-color: red;
+        color: white;
+        padding: 20px 60px;
+}
+
+.contain1 {
+    font-weight: 700;
+}
+
+/* giving all other section their background colour */
+.first, .secondA, .thirdA, .fourthA, .fifth, .sixA {
+    background-color: black;
+    color: #fff;
+    display: flex;
+}
+
+hr {
+    height: 10px;
+    background-color: rgb(34, 32, 32);
+    border: none;
+}
+
+/* styling next section */
+.first {
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.firstA {
+    width: 40%;
+}
+
+.firstA h1, .secondA h1 {
+    font-size: 56px;
+}
+
+.firstA h3, .secondB h3 {
+    font-size: 22px;
+}
+
+.firstB {
+    width: 640px;
+    height: 450px;
+    background-image: url(tv.png);
+}
+
+video {
+    padding: 14% 12%;
+}
+
+/* styling next section */
+.secondA {
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondB {
+    width: 50%;
+}
+
+/* styling next section  */
+.thirdA {
+    height: 30vh;
+    padding: 40px 70px;
+}
+
+.thirdA h1{
+    font-size: 48px;
+}
+
+.thirdA h3{
+    font-size: 26px;
+}
+
+/* styling next section */
+.fourthA {    
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fourthB {
+    width: 50%;
+}
+
+.fourthA h1{
+    font-size: 48px;
+}
+
+.fourthA h3{
+    font-size: 26px;
+}
+
+/* styling next section */
+.fifth {
+    width: 100%;
+    /* height: fit-content; */
+    flex-direction: column;
+}
+
+.fifthA, .fifthB {
+    width: 55%;
+    margin: auto;
+}
+
+.fifthA h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.fifthB .fifthB_1 {
+    width: 100%;
+    padding: 25px;
+    background-color: rgb(51, 50, 50);
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.email_contain {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    font-size: 26px;
+}
+
+.email_contain1{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    margin: 0;
+    border: none;
+    margin-top: 20px;
+}
+
+.put-email {
+    font-size: 20px;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+.button {
+    font-size: 26px;
+    background-color: red;
+    color: white;
+    padding: 20px 60px;
+}
+
+/* styling the footer */
+.sixA {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.sixB {
+    padding: 20px;
+    width: 70%;
+}
+
+.sixB p {
+    font-size: 20px;
+}
+
+table {
+    margin: 20px 0;
+
+}
+
+td {
+    gap: 30px;
+    text-align: left;
+    padding: 10px 120px 0 0;
+    margin-right: 60px;
+}
